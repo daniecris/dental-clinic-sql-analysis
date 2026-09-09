@@ -25,13 +25,13 @@ VALUES
 --3.ANALYSIS
 --Total revenue
 SELECT SUM(cost)
-FROM dental_visit_2;
+FROM dental_visits_2;
 
 --Average visit cost
 SELECT AVG(cost)
-FROM dental_visit_2;
+FROM dental_visits_2;
 
 --Number of visits by treatment
 SELECT  treatment, COUNT(*)
-FROM dental_visit_2
+FROM dental_visits_2
 GROUP BY treatment;

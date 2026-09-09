@@ -35,3 +35,8 @@ FROM dental_visits_2;
 SELECT  treatment, COUNT(*)
 FROM dental_visits_2
 GROUP BY treatment;
+
+--Total revenue by treatment
+SELECT treatment, SUM (cost) AS total_revenue
+FROM dental_visits_2
+GROUP BY treatment;

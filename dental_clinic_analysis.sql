@@ -40,3 +40,23 @@ GROUP BY treatment;
 SELECT treatment, SUM (cost) AS total_revenue
 FROM dental_visits_2
 GROUP BY treatment;
+
+--Most expensive visit
+SELECT *
+FROM dental_visits_2
+ORDER BY cost DESC
+LIMIT 1;
+
+--Most common treatment
+SELECT treatment, COUNT(*) AS number_of_visits
+FROM dental_visits_2
+GROUP BY treatment
+ORDER BY number_of_visits DESC
+LIMIT 1;
+
+
+
+--Total revenue by treatment
+SELECT treatment, SUM (cost) AS total_revenue
+FROM dental_visits_2
+GROUP BY treatment;

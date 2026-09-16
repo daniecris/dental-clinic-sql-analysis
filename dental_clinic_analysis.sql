@@ -54,9 +54,7 @@ GROUP BY treatment
 ORDER BY number_of_visits DESC
 LIMIT 1;
 
+--4.Business insights
 
 
---Total revenue by treatment
-SELECT treatment, SUM (cost) AS total_revenue
-FROM dental_visits_2
-GROUP BY treatment;
+

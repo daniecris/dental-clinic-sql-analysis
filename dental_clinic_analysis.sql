@@ -51,10 +51,17 @@ LIMIT 1;
 SELECT treatment, COUNT(*) AS number_of_visits
 FROM dental_visits_2
 GROUP BY treatment
-ORDER BY number_of_visits DESC
-LIMIT 1;
+ORDER BY number_of_visits DESC;
 
 --4.Business insights
-
+--4. Business insights 
+-- Total of 10 dental visits were recorded.
+-- Total revenue was $1,870.
+-- The average visit cost was $187.
+-- Cleaning and Filling were the most common treatment.
+-- with 4 visits each.
+-- Filling generates the highest total revenue at $900.
+-- The most expensive individual visit was an extraction
+-- costing $350.
 
 

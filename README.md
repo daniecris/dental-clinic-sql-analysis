@@ -47,3 +47,9 @@ The following questions were analyzed using SQL:
 - GROUP BY
 - ORDER BY
 - LIMIT
+
+## Data Visualization
+### Revenue by Treatment
+![Revenue by Treatment](revenue_by_treatment.png)
+### Visits by Treatment
+![Visits by Treatment](visits_by_treatment.png)

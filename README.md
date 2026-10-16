@@ -50,6 +50,6 @@ The following questions were analyzed using SQL:
 
 ## Data Visualization
 ### Revenue by Treatment
-![Revenue by Treatment](revenue_by_treatment.png)
+![Revenue by Treatment](Revenue%20by%20Treatment.png)
 ### Visits by Treatment
-![Visits by Treatment](visits_by_treatment.png)
+![Visits by Treatment](Visits%20by%20Treatment.png)

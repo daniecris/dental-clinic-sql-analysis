@@ -2,14 +2,14 @@
 -- Database: PostgreSQL 
 
 --1.CREATE TABLE
-CREATE TABLE dental_visits_2(
+CREATE TABLE dental_visits(
   visit_id integer,
   patient_id integer,
   treatment varchar(50),
   cost numeric);
 
 --2.INSERT DATA
-INSERT INTO dental_visits_2(visit_id,patient_id,treatment,cost)
+INSERT INTO dental_visits(visit_id,patient_id,treatment,cost)
 VALUES
 ('1','101','cleaning',80),
 ('2','102','filling',150),
@@ -25,31 +25,31 @@ VALUES
 --3.ANALYSIS
 --Total revenue
 SELECT SUM(cost)
-FROM dental_visits_2;
+FROM dental_visits;
 
 --Average visit cost
 SELECT AVG(cost)
-FROM dental_visits_2;
+FROM dental_visits;
 
 --Number of visits by treatment
 SELECT  treatment, COUNT(*)
-FROM dental_visits_2
+FROM dental_visits
 GROUP BY treatment;
 
 --Total revenue by treatment
 SELECT treatment, SUM (cost) AS total_revenue
-FROM dental_visits_2
+FROM dental_visits
 GROUP BY treatment;
 
 --Most expensive visit
 SELECT *
-FROM dental_visits_2
+FROM dental_visits
 ORDER BY cost DESC
 LIMIT 1;
 
 --Most common treatment
 SELECT treatment, COUNT(*) AS number_of_visits
-FROM dental_visits_2
+FROM dental_visits
 GROUP BY treatment
 ORDER BY number_of_visits DESC;
 

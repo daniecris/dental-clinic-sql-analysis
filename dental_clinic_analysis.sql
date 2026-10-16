@@ -1,5 +1,5 @@
 -- Dental Clinic SQL Analysis
--- Database: Analysis 
+-- Database: analysis 
 -- DBMS: PostgreSQL
 
 --1.CREATE TABLE

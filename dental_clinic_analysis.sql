@@ -1,5 +1,6 @@
 -- Dental Clinic SQL Analysis
--- Database: PostgreSQL 
+-- Database: Analysis 
+-- DBMS: PostgreSQL
 
 --1.CREATE TABLE
 CREATE TABLE dental_visits(

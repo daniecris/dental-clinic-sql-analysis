@@ -83,3 +83,10 @@ FROM sales
 GROUP BY sale_date
 ORDER BY sale_date ASC; 
 
+--Bussiness insights
+-- Total revenue $9,517.19
+-- Total units sold 101
+-- Average unit price $204.32
+-- Highest unit price $899.99
+-- Lowest unit price 1.50
+

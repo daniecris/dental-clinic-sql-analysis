@@ -84,6 +84,7 @@ GROUP BY sale_date
 ORDER BY sale_date ASC; 
 
 --Bussiness insights
+-- Overall sales performance 
 -- Total revenue $9,517.19
 -- Total units sold 101
 -- Average unit price $204.32

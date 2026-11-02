@@ -91,3 +91,12 @@ ORDER BY sale_date ASC;
 -- Highest unit price $899.99
 -- Lowest unit price 1.50
 
+--Sales by Product Category
+-- Best-performing category: Electronics($6,879.68)
+-- Lowest-performing category: Stationery($187.78)
+
+--Sales by Region
+-- Best-performing region: North($6,049.85)
+-- Lowest-performing region: East($727.79)
+
+
